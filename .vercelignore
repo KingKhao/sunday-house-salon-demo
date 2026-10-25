@@ -1,0 +1,7 @@
+.git/
+.gitignore
+README.md
+DESIGN-REVIEW.md
+.env*
+*.log
+node_modules/
