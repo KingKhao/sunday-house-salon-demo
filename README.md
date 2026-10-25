@@ -2,6 +2,11 @@
 
 A fictional Dandridge, Tennessee salon example for Clinch Valley Digital. This standalone demo is hosted separately from the production CVD website.
 
+- Live demo: https://sunday-house-salon-demo.vercel.app/
+- Private source repository: https://github.com/KingKhao/sunday-house-salon-demo
+- Vercel project: `wkb-projects/sunday-house-salon-demo`, connected to the GitHub repository for deployments from `main`.
+- Published October 25, 2026. Public HTML/CSS/JavaScript and the single-file edition returned HTTP 200; live booking and gift controls passed a production smoke check. Demo search indexing remains disabled.
+
 ## Preview in five lines
 1. Open `Sunday-House.html` in a current Chrome, Edge, Firefox or Safari browser.
 2. Keep an internet connection for the Unsplash photographs and optional Fontshare font.
