@@ -39,3 +39,16 @@ Final inspector: zero FAIL, five WARN, with two explicit exceptions. No claim is
 - No-footage warning: the requested real photographs remain light and use subtle movement. No video dependency was added to a mobile-first, framework-free demo.
 
 Final verification: 28 browser checks passed; every used photo loaded; no form-submission network request or browser storage writes; no horizontal overflow at 1440, 768, 390 or 320px. Packaged single-file edition also reached the booking details screen successfully. Direct file navigation could not be exercised in the automated browser because of its protocol policy; localhost static serving was used.
+
+
+## October 25, 2026 — reference-led art refinement
+
+Source: https://www.vagaro.com/pro/booking-website-builder
+
+Studied the six displayed previews: Imo Aesthetics (dark/gold and angled photo details), Rich in Flesh (graphic contrast), Era Aesthetics (green, organic crops and linework), House of Darlins (texture and large serif type), Humble Bee (scrapbook framing), and It Girl (arched portrait, layered photography and sun details). The closest fit was the green/organic framing of Era and It Girl, with restrained postcard warmth from Humble Bee. These are visual observations, not claims about those businesses or their functionality. No reference photographs, logos or template code were copied. Existing Unsplash assets and original inline SVG artwork are used.
+
+The longer 78-second video was visually sampled at 0, 7, 14 ... 77 seconds. It demonstrates builder styling choices and service/staff/shop modules. Audio was not transcribed. Existing demo interactions already address the relevant service and booking concepts; this update adds no backend.
+
+The new composition uses a forest-green hero, arched hair imagery and postcard overlap, a sun emblem, flowing strand linework, warm rose and sage section fields, ticket-style booking illustration, varied dark lookbook, and gift-card art. User-requested richer art justifies thin decorative frames, limited print-like shadows and organic shapes. Warm paper, editorial type sizes and photo-led presentation are intentional; a video loop was not added because no authentic salon footage was supplied.
+
+Browser review: all 28 existing interaction checks passed after the styling change. Screenshots of the full page at desktop, tablet and phone sizes were reviewed. Corrections include stronger small-text/button contrast, a single-line mobile Book now button, readable postcard caption, improved tablet gift-column balance and smaller mobile review text. Existing fictional-content labels, no-submission behavior, reduced-motion controls and noindex deployment remain intact. Real phone hardware testing remains outstanding.

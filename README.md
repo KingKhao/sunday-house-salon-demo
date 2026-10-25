@@ -14,7 +14,7 @@ A fictional Dandridge, Tennessee salon example for Clinch Valley Digital. This s
 4. Try the gallery filters, comparison slider, gift card checkout and waitlist.
 5. Resize the window to see the mobile booking bar; no server, account, installation or build is required.
 
-Alternatively keep `index.html`, `styles.css` and `app.js` together and open `index.html`. The single-file and three-file editions contain the same code. The single-file edition embeds the complete CSS and JavaScript; photography and the optional web font remain remote.
+Alternatively keep `index.html`, `styles.css`, `art-direction.css` and `app.js` together and open `index.html`. The single-file and four-file editions contain the same code. The single-file edition embeds the complete CSS and JavaScript; photography and the optional web font remain remote.
 
 ## Problems and included features
 
@@ -60,7 +60,7 @@ Motion uses CSS/vanilla JS only: masked headline rise, staggered IntersectionObs
 - Browser suite: 28 passing checks in Chrome. Booking, validation, reminder preview, safe rendering of angle brackets, field clearing, direct chair selection, waitlist, gift recipient/amount, no submission requests, gallery filters/lightbox/arrows, comparison, FAQ, pause control, loaded photos, focus containment and reduced motion.
 - No horizontal document overflow at 1440, 768, 390 or 320 pixels.
 - JavaScript syntax and source lint pass. Source lint notes legitimate zero-padding for dates.
-- Responsive design inspection at 1440, 768 and 390 pixels: zero failures and five style warnings after documented exceptions for the requested sticky controls and the illustrative-map caption. See `DESIGN-REVIEW.md` for the visual critique, exceptions and remaining limitations. No claim is made that every possible overlap is impossible.
+- Responsive design inspection at 1440, 768 and 390 pixels, followed by visual corrections for tablet gift layout, caption spacing, mobile header fit and contrast. The design intentionally retains warm paper, expressive serif typography and ornamental artwork; see the dated review below for scope. See `DESIGN-REVIEW.md` for the visual critique, exceptions and remaining limitations. No claim is made that every possible overlap is impossible.
 - This is desktop browser testing/emulation. Real-device touch feel, safe areas and phone keyboard behavior still need a device check. Direct file navigation was blocked by the test browser's protocol policy, so functional checks ran through a localhost-only static server. The delivered files use classic scripts and relative CSS without imports or fetch, and are designed to open directly.
 
 ## Image sources
@@ -85,3 +85,7 @@ Optional font stylesheet: https://api.fontshare.com/v2/css?f[]=sentient@300,400,
 ## Before a real client launch
 
 Replace fictional identity, staff, address, hours, menu, sample reviews and stock inspiration with verified client content. Only then connect approved booking/payment/reminder services, privacy/consent behavior and real availability. Remove the demo noindex directive only for an authentic business site. None of those production changes are included or implied by this demo.
+
+## October 25 art-direction update
+
+Reviewed all six site previews on Vagaro's booking website builder page and sampled its 78-second visual walkthrough at seven-second intervals. Sunday House now uses a forest-green hero, arched photography, a layered postcard, an original sun mark and flowing strand illustrations, a varied dark lookbook, and illustrated gift-card artwork. Booking, pricing, forms and all JavaScript behavior are unchanged. `art-direction.css` contains the visual layer.
